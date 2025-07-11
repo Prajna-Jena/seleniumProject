@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-06T13:40:18 EST" name="Default suite" finished-at="2025-03-06T13:40:21 EST" duration-ms="2935">
+    <groups>
+    </groups>
+    <test started-at="2025-03-06T13:40:18 EST" name="Default test" finished-at="2025-03-06T13:40:21 EST" duration-ms="2935">
+      <class name="com.test.RestAssuredOne">
+        <test-method signature="getUser()[pri:1, instance:com.test.RestAssuredOne@139982de]" started-at="2025-03-06T13:40:18 EST" name="getUser" finished-at="2025-03-06T13:40:20 EST" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="createUser()[pri:2, instance:com.test.RestAssuredOne@139982de]" started-at="2025-03-06T13:40:20 EST" name="createUser" finished-at="2025-03-06T13:40:20 EST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="updateUser()[pri:3, instance:com.test.RestAssuredOne@139982de]" started-at="2025-03-06T13:40:20 EST" name="updateUser" finished-at="2025-03-06T13:40:20 EST" depends-on-methods="com.test.RestAssuredOne.createUser" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="deleteUser()[pri:4, instance:com.test.RestAssuredOne@139982de]" started-at="2025-03-06T13:40:20 EST" name="deleteUser" finished-at="2025-03-06T13:40:21 EST" depends-on-methods="com.test.RestAssuredOne.createUser" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- com.test.RestAssuredOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
